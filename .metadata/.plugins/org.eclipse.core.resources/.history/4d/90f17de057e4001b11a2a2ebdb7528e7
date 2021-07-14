@@ -1,9 +1,0 @@
-package spring.renzo.reto.tech.app.repositories;
-
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-import spring.renzo.reto.tech.app.models.ClienteDTO;
-
-public interface ProductoDAO extends MongoRepository<ClienteDTO, String> {
-
-}
